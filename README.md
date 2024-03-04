@@ -15,7 +15,7 @@ MacOS Sonoma 14.3.1
 4. In the project folder:
 
    ```
-   project % conda create --prefix ./env pandas numpy matplotlib scikit-learn
+   project % conda create --prefix ./env pandas numpy matplotlib scikit-learn jupyter
    ```
 
 5. If everything's alright, you should see this output:
@@ -57,4 +57,8 @@ MacOS Sonoma 14.3.1
    ```
    
 ### Activate the environment
+
+  ```
+  conda activate /Users/%youruser%/Desktop/project/env
+  ```
    
