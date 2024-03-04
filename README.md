@@ -2,6 +2,7 @@
 Device: MacBook Pro
 Chip: Apple M3 Pro
 MacOS Sonoma 14.3.1
+Python 3.12   
 
 ## Setup
 1. Download [Miniconda](https://docs.anaconda.com/free/miniconda/)
@@ -15,10 +16,11 @@ MacOS Sonoma 14.3.1
 4. In the project folder:
 
    ```
-   project % conda create --prefix ./env pandas numpy matplotlib scikit-learn jupyter
+   project % conda create --prefix ./env pandas numpy matplotlib scikit-learn
    ```
 
 5. If everything's alright, you should see this output:
+   
    ```
    Channels:
     - defaults
@@ -44,7 +46,7 @@ MacOS Sonoma 14.3.1
    ```
    Enter 'y' to proceed.
 
-6. After everything's been downloaded, you'll get a hint from conda:
+7. After everything's been downloaded, you'll get a hint from conda:
 
    ```
    # To activate this environment, use                                             
@@ -61,4 +63,9 @@ MacOS Sonoma 14.3.1
   ```
   conda activate /Users/%youruser%/Desktop/project/env
   ```
+8. Install JupyterLab:
+   
+   ```
+   conda install -c conda-forge jupyterlab
+   ```
    
