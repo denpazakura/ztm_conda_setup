@@ -1,13 +1,18 @@
 
 ## Hardware + System
-Device: MacBook Pro
-Chip: Apple M3 Pro
-MacOS Sonoma 14.3.1
-Python 3.12   
+
+|        |                     |
+|--------|---------------------|
+| Device | MacBook Pro         |
+| Chip   | Apple M3 Pro        |
+| System | MacOS Sonoma 14.3.1 |
+| Python | 3.12                |
+
+ 
 ## Setup
 1. Download [Miniconda](https://docs.anaconda.com/free/miniconda/)
    Miniconda3 macOS Apple M1 64-bit pkg works with M3 as well.
-   If everything's ok, you should see (base) once you start a new shell
+   After a successfull installation you should see (base) once you start a new shell
 2. Create a project folder:
    ```
    cd desktop && mkdir project && cd project
@@ -37,7 +42,10 @@ Python 3.12
    Proceed ([y]/n)? 
    ```
    Enter 'y' to proceed.
-5. After everything's been downloaded, you'll get a hint from conda:
+
+   ## Working with a conda environment
+   
+6. After everything's been downloaded, you'll get a hint from conda:
    ```
    # To activate this environment, use                                             
    #                                                                               
@@ -48,12 +56,19 @@ Python 3.12
    #     $ conda deactivate  
    ```
    
-  6. Activate the environment:
-        ```
+  7. Activate the environment:
+     
+      ```
       conda activate /Users/%youruser%/Desktop/project/env
-       ```
+      ```  
 
-  7. Install JupyterLab:
-        ```
+  9. Install JupyterLab:
+     
+      ```
       conda install -c conda-forge jupyterlab 
+      ```
+  10. Get info about current environment:
+
+      ```
+      conda info
       ```
