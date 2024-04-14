@@ -72,3 +72,7 @@
       ```
       conda info
       ```
+  11. Start Jupyter notebook:
+      ```
+      jupyter lab
+      ```    
